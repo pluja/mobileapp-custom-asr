@@ -18,3 +18,9 @@
 iosApp/iosApp.xcodeproj/xcuserdata
 iosApp/iosApp.xcworkspace/xcuserdata
 iosApp/iosApp/GoogleService-Info.plist
+
+# Fork build tooling: secrets and local artifacts (never commit)
+secrets.env
+*.apk
+/.gradle-build-cache/
+/.android-cache/
